@@ -4,6 +4,12 @@ import java.util.Calendar;
 
 import sun.misc.Cache;
 
+
+
+/**
+ * Provide an interface for creating families of related or dependent 
+ * objects without specifying their concrete classes
+ *  * */
 public class TestAbstractFactoryPattern {
 	
 	public void showTest()
