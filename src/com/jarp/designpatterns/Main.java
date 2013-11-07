@@ -7,6 +7,7 @@ import com.jarp.designpatterns.abstractfactory.TestAbstractFactoryPattern;
 import com.jarp.designpatterns.factorymethod.ConcreteProduct.TestFactorymethdoConcreteProduct;
 import com.jarp.designpatterns.factorymethod.DataProvided.TestFactoryMethodDataProvided;
 import com.jarp.designpatterns.prototype.TestPrototypePattern;
+import com.jarp.designpatterns.structural.bridge.TestPattern;
 
 /**
  * @author JARP
@@ -24,10 +25,12 @@ public class Main {
 		
 		//test.showTest();
 		
-		TestPrototypePattern test = new TestPrototypePattern();
+		//TestPrototypePattern test = new TestPrototypePattern();
 
 		
-		test.showTest();
+		//test.showTest();
+		
+		new TestPattern().Test();
 		
 		
 
