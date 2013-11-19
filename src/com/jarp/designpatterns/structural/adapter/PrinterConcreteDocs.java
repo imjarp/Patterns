@@ -13,11 +13,14 @@ public class PrinterConcreteDocs implements PrinterWork{
 	
 	@Override
 	public void print(String pages, String extension, String fileName) {
-		// TODO Auto-generated method stub
+
+
+		//In built support document to physical printer
 		if(extension.equals("doc"))
 		{
 			System.out.println("Printing documento doc with " + pages);
 		}
+		//Printer Adapter provides virtual printing to file
 		else if(extension.equals("pdf")||extension.equals("mdi"))
 		{
 			printerAdapter = new PrinterWorkAdapter(extension);

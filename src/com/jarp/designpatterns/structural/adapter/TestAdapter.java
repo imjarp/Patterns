@@ -18,6 +18,11 @@ public class TestAdapter {
 	
 	public void showTest()
 	{
+		PrinterConcreteDocs printer = new PrinterConcreteDocs();
+		
+		printer.print("pagesDOC", "doc", "fileName.doc");
+		printer.print("pagesPDF", "pdf", "fileName.pdf");
+		printer.print("pagesMDI", "mdi", "fileName.pdf");
 		
 	}
 
